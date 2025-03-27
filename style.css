@@ -1,0 +1,25 @@
+h1 {
+text-align: center;
+    color: #f7f7f7b1;
+}
+
+h2 {
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing between h2 elements */
+    white-space: nowrap; /* Prevents text from wrapping */
+    text-align: center;
+    font-size: clamp(16px, 5vw, 48px);
+  }
+  .container {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Aligns items vertically */
+    flex-wrap: nowrap; /* Ensures they stay on one line */
+    gap: 20px; /* Adds spacing between the h2 elements */
+  }
+
+ h1 {
+    background-color: rgb(91, 145, 105);
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
